@@ -1,0 +1,307 @@
+
+
+/*----RESET----*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    }
+
+
+/**--HEADER--*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/**--MAIN--*/
+main{
+    background-color: #ffffff;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient( #000000cc 65%,#000000), url(../img/casafondo4.jpg);
+    background-size: cover;
+    height: 1000px;
+    color: white;
+    font-size: 95px;
+    text-align: center;
+
+}
+
+.hero div{
+    display: inline-block;
+    margin: 50px;
+    padding: 20px;
+    
+}
+
+.separador h2{
+    background-color: rgba(0, 0, 0, 0.548);
+    text-align: center;
+    font-size: 100px;
+    color: #f7f9ef;
+
+}
+
+.informacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    height: 1000px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient( #000000, #000000cc 65%), url(../img/casa1.jpg);
+    background-size: cover;
+}
+
+.informacion img{
+    height: 400px;
+    width: 700px;
+    border-radius: 90%;
+}
+.informacion div{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.separador2 h2{
+    background-color: rgba(0, 0, 0, 0.548);
+    text-align: center;
+    font-size: 100px;
+    color: #f7f9ef;
+    margin: 20px;
+}
+.informacion p{
+margin-left: 10px;
+
+}
+.productos2{
+    background-color: black;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    margin: 30px;
+}
+.productos{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productos div{
+    border: 2px solid black;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+
+.productos div img{
+    width: 300px;
+    height: 250px;
+    text-align: center;
+
+}
+
+.productos h2{
+    margin: 20px;
+}
+
+.productos a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 40px;
+}
+.contacto img{
+    filter: brightness(0) saturate(100%) invert(98%) sepia(7%) saturate(2603%) hue-rotate(317deg) brightness(98%) contrast(131%);
+}
+
+.contacto h1{
+color: white;
+display: flex;
+flex-direction: column;
+font-size: 100px;
+}
+.contacto div h2{
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+
+}
+
+.contacto div img{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.formulario ::placeholder{
+    text-align: center;
+    justify-content: center;
+}
+.formulario{
+display: flex;
+text-align: center;
+width: 800pxs;
+justify-content: center;
+
+}
+.formulario textarea{
+    background: transparent;
+    color: white;
+    resize: none;
+}
+.formulario input{
+    background: transparent;
+    color: white;
+}
+
+
+.formulario div{
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.418);
+    border: 2px solid #f2fab7ad;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient( rgba(0 0 0 / .8), rgba(0 0 0 / .8)), url(../img/contactofondo2.jpg);
+    background-size: cover;
+    height: 1000px;
+    
+}
+.contacto div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.nosotros{
+display: inline-flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.nosotros img{
+    width: 500px;
+    height: 500px;
+    border-radius: 90%;
+}
+
+.nosotros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient( rgba(0 0 0 / .8), rgba(0 0 0 / .8)), url(../img/fondocasa3.jpg);
+    background-size: cover;
+    height: 1000px;
+    color: white;
+}
+.nosotros h2{
+    font-size: 40px;
+}
+.nosotros p{
+    margin: 30px;
+}
+.nosotros2 h2{
+    text-align: center;
+    font-size: 50px;
+    background-color: #00000008;
+
+}
+.nosotros2 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 90%;
+}
+.nosotros2 p{
+    margin: 20px;
+}
+.nosotros2 div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2p solid black;
+}
+.servicios div{
+    justify-content: space-between;
+    color:white;
+}
+
+.servicios h2{
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient( rgba(0 0 0 / .8), rgba(0 0 0 / .8)), url(../img/contactofondo1.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+.titulo div{
+display: inline-block;
+font-size: 18px;
+text-align: center;
+justify-content: space-around;
+padding: 60px;
+color:white;
+
+}
+.titulo{
+text-align: center;
+justify-content: center;
+align-items: center;
+color:white;
+
+}
+
+
+
+
+/**--FOOTER--*/
+
+
+footer img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+footer{
+    background-color: #f7f9ef;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
