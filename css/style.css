@@ -19,16 +19,29 @@
     align-items: center;
 
 }
+.titulo{
+    font-size: 50px;
+    color: black;
+
+}
 
 nav{
     position: fixed;
-}
 
+}
+header a{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 header{
     font-size: 24px;
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
 }
 
 .navbar-collapse{
@@ -45,23 +58,43 @@ main{
 
 .hero{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background: linear-gradient( #000000cc 65%,#000000), url(../img/casafondo4.jpg);
+    background-image: url(../img/fondoo.jpg);
     background-size: cover;
-    height: 1000px;
-    color: white;
-    font-size: 95px;
-    text-align: center;
+    background-position: center;
+    height: 600px;
+    color: rgb(0, 0, 0);
+    text-align: left;
 
 }
 
 .hero div{
-    display: inline-block;
-    margin: 50px;
-    padding: 20px;
-    
+    justify-content: left;
+    margin-left: 50px;
 }
+
+.botoncito{
+    background-color: #eed183;
+    font-size: 30px;
+    border:solid black 1px;
+}
+
+.botoncito:hover{
+    background-color: #997922;
+
+}
+
+.hero h2{
+    color: #997922;
+}
+
+.hero p{
+    margin-bottom: 80px;
+    margin-top: 30px;
+
+}
+
 
 
 .imagen{
@@ -73,15 +106,12 @@ main{
     text-align: center;
     
 }
-.fondi{
-border: solid black 4px;
-border-radius: 20px;
-}
+
+
 .carru{
     align-items: center;
     justify-content: center;
     display: flex;
-    background-image: url(../img/nube.jpg);
     }
 
 .separador h2{
@@ -94,34 +124,46 @@ border-radius: 20px;
 
 .informacion{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-size: cover;
-    height: 1000px;
-    color: rgb(255, 255, 255);
-    background: linear-gradient( #000000, #000000cc 65%), url(../img/casa1.jpg);
-    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+
+}
+.informacion div {
+    justify-content: left;
+    margin-left: 50px;
+
+
 }
 
 .informacion img{
-    height: 400px;
-    width: 700px;
+    height: 500px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: 40px;
+
 }
 .informacion div{
-display: inline-flex;
-justify-content: center;
-align-items: center;
+display: flex;
+flex-direction: column;
+text-align: center;
 
 
 }
 
-.separador2 h2{
-    background-color: rgba(0, 0, 0, 0.548);
-    text-align: center;
-    font-size: 100px;
-    color: #f7f9ef;
+
+.informacion p{
     margin: 20px;
 }
+
+
 .informacion p{
 margin-left: 10px;
 
@@ -154,8 +196,31 @@ margin-left: 10px;
     width: 300px;
     height: 250px;
     text-align: center;
+    margin-top: 50px;
 
 }
+
+
+.carru{
+    -webkit-box-shadow: -17px 14px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -17px 14px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -17px 14px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.grid-galeria{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 10px;
+}
+
+.grid-galeria div img{
+    width: 100%;
+    height: 100%;
+}
+
 
 .productos h2{
     margin: 20px;
@@ -336,4 +401,27 @@ footer{
     align-items: center;
     text-align: center;
     padding: 40px;
+}
+
+
+@media (width < 1000px) {
+    .contacto{
+        flex-direction: column;
+    height: 780px;
+    }
+    
+}
+
+@media (width < 1000px) {
+    .contacto h1{
+        font-size: 60px;
+    }
+    
+}
+
+@media (width < 600px) {
+    .formulario div{
+    width: 400px;
+    }
+    
 }
