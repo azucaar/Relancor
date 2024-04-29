@@ -238,7 +238,11 @@ header {
       background: transparent;
       color: white; }
 
-.formulario::placeholder {
+.formulario input::placeholder {
+  text-align: center;
+  justify-content: center; }
+
+.formulario textarea::placeholder {
   text-align: center;
   justify-content: center; }
 
@@ -255,9 +259,11 @@ header {
     flex-direction: column;
     text-align: center; }
     .nosotros div h2 {
-      font-size: 40px; }
+      font-size: 40px;
+      color: #997922; }
     .nosotros div p {
-      margin: 30px; }
+      margin: 30px;
+      font-size: 30px; }
   .nosotros img {
     width: 500px;
     height: 500px;
@@ -278,9 +284,11 @@ header {
     justify-content: center; }
     .nosotros2 div h2 {
       text-align: center;
-      font-size: 50px; }
-      .nosotros2 div h2 p {
-        margin: 20px; }
+      font-size: 50px;
+      color: #997922; }
+    .nosotros2 div p {
+      margin: 20px;
+      font-size: 30px; }
 
 .servicios {
   display: flex;
@@ -397,10 +405,10 @@ footer {
     display: flex;
     flex-direction: column; } }
 
-@media screen and (max-width: 950px) and (max-width: 900px) {
+@media screen and (max-width: 950px) and (max-width: 1100px) {
   .nosotros2 img {
     display: none; } }
 
-@media screen and (max-width: 950px) and (max-width: 520px) {
+@media screen and (max-width: 950px) and (max-width: 1100px) {
   .nosotros img {
     display: none; } }

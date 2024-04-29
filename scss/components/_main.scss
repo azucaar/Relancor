@@ -171,7 +171,12 @@
     }
 }   
 
-.formulario::placeholder{
+.formulario input::placeholder{
+    text-align: center;
+    justify-content: center;
+}
+
+.formulario textarea::placeholder{
     text-align: center;
     justify-content: center;
 }
@@ -191,10 +196,12 @@
 
     h2{
         font-size: 40px;
+        color: #997922;
 
     }
     p{
         margin: 30px;
+        font-size: 30px;
 
     }
     }
@@ -224,10 +231,14 @@
         h2{
             text-align: center;
             font-size: 50px;
-            p{
-                margin: 20px;
+            color: #997922;
 
             }
+            p{
+                margin: 20px;
+                font-size: 30px;
+
+            
         }
     }
 }
@@ -278,10 +289,9 @@
         text-align: center;
         justify-content: space-around;
         padding: 60px;
-        color: white;
+        color: $color-secundario;
         h3{
-            color: #eed183;
-
+            color: $color-terciario;
         }
 
     }
