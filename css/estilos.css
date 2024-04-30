@@ -18,7 +18,12 @@
   border: solid black 1px; }
 
 .botoncito:hover {
-  background-color: #997922; }
+  background-color: #997922;
+  border-color: black; }
+
+.botoncito:active {
+  background-color: #665012 !important;
+  border-color: black !important; }
 
 .imagen {
   width: 800px;
@@ -49,18 +54,26 @@
   justify-content: space-around; }
 
 .botonc:active {
-  background-color: white;
-  background: white; }
+  background-color: #695316 !important;
+  border-color: black !important; }
 
 .botonc:hover {
-  background-color: #997922; }
+  background-color: #997922;
+  border-color: black; }
 
 .produ div img {
   width: 100%;
   height: 230px; }
 
 .card {
-  margin: 10px; }
+  margin: 10px;
+  transition: 0.9s; }
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: -1px 10px 42px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 10px 42px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 10px 42px -14px rgba(0, 0, 0, 0.75); }
 
 .botonc {
   background-color: #eed183;
